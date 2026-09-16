@@ -1,0 +1,38 @@
+body {
+    h1 {
+        color: hsl(11, 100%, 60%);
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .første-avsnitt {
+        font-size: 1.2rem; 
+        line-height: 1.6;
+    }
+
+    /* Jeg syns første avsnitt ble lettere å lese i forhold til avnsittene uten line-height */
+
+    font-family: 'Gill sans', Arial, sans-serif;
+
+    .boks1 {
+        background-color: cadetblue;
+        opacity: 0.5;
+    }
+    /* Forkjellen i tekstboksen fra når jeg brukte rgba/hsl og da jeg brukte opacity var merkbarig. 
+    Med rgba ble kun fargen og ikke teksten gjennomsiktig, 
+    mens med opacity ble både farge og tekst litt transparent */
+    .boks2 {
+        background-color: #ff5733; 
+        text-transform: uppercase;
+    }
+    .boks3 {
+        background-color: rgb(255, 0, 34);
+        background-image: url("https://picsum.photos/400/200");
+        background-size: cover;
+        padding: 6rem 10rem;
+        /* Begge er dårlig på vise bildet */
+       
+       
+    
+}
+}
